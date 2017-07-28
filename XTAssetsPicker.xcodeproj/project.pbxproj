@@ -1,0 +1,397 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		726666EA1EA1C9D200BF0ACC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726666E91EA1C9D200BF0ACC /* AppDelegate.swift */; };
+		726666EC1EA1C9D200BF0ACC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726666EB1EA1C9D200BF0ACC /* ViewController.swift */; };
+		726666EF1EA1C9D200BF0ACC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 726666ED1EA1C9D200BF0ACC /* Main.storyboard */; };
+		726666F11EA1C9D200BF0ACC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 726666F01EA1C9D200BF0ACC /* Assets.xcassets */; };
+		726666F41EA1C9D200BF0ACC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 726666F21EA1C9D200BF0ACC /* LaunchScreen.storyboard */; };
+		7266670D1EA1C9FF00BF0ACC /* XTAlbumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726666FD1EA1C9FF00BF0ACC /* XTAlbumViewController.swift */; };
+		7266670E1EA1C9FF00BF0ACC /* XTAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 726666FE1EA1C9FF00BF0ACC /* XTAssets.xcassets */; };
+		7266670F1EA1C9FF00BF0ACC /* XTAssetsConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726666FF1EA1C9FF00BF0ACC /* XTAssetsConfiguration.swift */; };
+		726667101EA1C9FF00BF0ACC /* XTAssetsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726667001EA1C9FF00BF0ACC /* XTAssetsManager.swift */; };
+		726667111EA1C9FF00BF0ACC /* XTAssetsPicker.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 726667011EA1C9FF00BF0ACC /* XTAssetsPicker.storyboard */; };
+		726667131EA1C9FF00BF0ACC /* XTAssetsPickerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726667031EA1C9FF00BF0ACC /* XTAssetsPickerCell.swift */; };
+		726667141EA1C9FF00BF0ACC /* XTAssetsPickerConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726667041EA1C9FF00BF0ACC /* XTAssetsPickerConstant.swift */; };
+		726667151EA1C9FF00BF0ACC /* XTAssetsPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726667051EA1C9FF00BF0ACC /* XTAssetsPickerViewController.swift */; };
+		726667161EA1C9FF00BF0ACC /* XTCustomItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726667061EA1C9FF00BF0ACC /* XTCustomItems.swift */; };
+		726667171EA1C9FF00BF0ACC /* XTExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726667071EA1C9FF00BF0ACC /* XTExtension.swift */; };
+		726667181EA1C9FF00BF0ACC /* XTImagePickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726667081EA1C9FF00BF0ACC /* XTImagePickerController.swift */; };
+		726667191EA1C9FF00BF0ACC /* XTPreviewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726667091EA1C9FF00BF0ACC /* XTPreviewCell.swift */; };
+		7266671A1EA1C9FF00BF0ACC /* XTPreviewTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7266670A1EA1C9FF00BF0ACC /* XTPreviewTransition.swift */; };
+		7266671B1EA1C9FF00BF0ACC /* XTPreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7266670B1EA1C9FF00BF0ACC /* XTPreviewViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		726666E61EA1C9D200BF0ACC /* XTAssetsPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XTAssetsPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		726666E91EA1C9D200BF0ACC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		726666EB1EA1C9D200BF0ACC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		726666EE1EA1C9D200BF0ACC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		726666F01EA1C9D200BF0ACC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		726666F31EA1C9D200BF0ACC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		726666F51EA1C9D200BF0ACC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		726666FD1EA1C9FF00BF0ACC /* XTAlbumViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XTAlbumViewController.swift; sourceTree = "<group>"; };
+		726666FE1EA1C9FF00BF0ACC /* XTAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = XTAssets.xcassets; sourceTree = "<group>"; };
+		726666FF1EA1C9FF00BF0ACC /* XTAssetsConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XTAssetsConfiguration.swift; sourceTree = "<group>"; };
+		726667001EA1C9FF00BF0ACC /* XTAssetsManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XTAssetsManager.swift; sourceTree = "<group>"; };
+		726667011EA1C9FF00BF0ACC /* XTAssetsPicker.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = XTAssetsPicker.storyboard; sourceTree = "<group>"; };
+		726667031EA1C9FF00BF0ACC /* XTAssetsPickerCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XTAssetsPickerCell.swift; sourceTree = "<group>"; };
+		726667041EA1C9FF00BF0ACC /* XTAssetsPickerConstant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XTAssetsPickerConstant.swift; sourceTree = "<group>"; };
+		726667051EA1C9FF00BF0ACC /* XTAssetsPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XTAssetsPickerViewController.swift; sourceTree = "<group>"; };
+		726667061EA1C9FF00BF0ACC /* XTCustomItems.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XTCustomItems.swift; sourceTree = "<group>"; };
+		726667071EA1C9FF00BF0ACC /* XTExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XTExtension.swift; sourceTree = "<group>"; };
+		726667081EA1C9FF00BF0ACC /* XTImagePickerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XTImagePickerController.swift; sourceTree = "<group>"; };
+		726667091EA1C9FF00BF0ACC /* XTPreviewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XTPreviewCell.swift; sourceTree = "<group>"; };
+		7266670A1EA1C9FF00BF0ACC /* XTPreviewTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XTPreviewTransition.swift; sourceTree = "<group>"; };
+		7266670B1EA1C9FF00BF0ACC /* XTPreviewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XTPreviewViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		726666E31EA1C9D200BF0ACC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		726666DD1EA1C9D200BF0ACC = {
+			isa = PBXGroup;
+			children = (
+				726666E81EA1C9D200BF0ACC /* XTAssetsPicker */,
+				726666E71EA1C9D200BF0ACC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		726666E71EA1C9D200BF0ACC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				726666E61EA1C9D200BF0ACC /* XTAssetsPicker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		726666E81EA1C9D200BF0ACC /* XTAssetsPicker */ = {
+			isa = PBXGroup;
+			children = (
+				726666FB1EA1C9FF00BF0ACC /* XTAssetsPicker */,
+				726666E91EA1C9D200BF0ACC /* AppDelegate.swift */,
+				726666EB1EA1C9D200BF0ACC /* ViewController.swift */,
+				726666ED1EA1C9D200BF0ACC /* Main.storyboard */,
+				726666F01EA1C9D200BF0ACC /* Assets.xcassets */,
+				726666F21EA1C9D200BF0ACC /* LaunchScreen.storyboard */,
+				726666F51EA1C9D200BF0ACC /* Info.plist */,
+			);
+			path = XTAssetsPicker;
+			sourceTree = "<group>";
+		};
+		726666FB1EA1C9FF00BF0ACC /* XTAssetsPicker */ = {
+			isa = PBXGroup;
+			children = (
+				726667001EA1C9FF00BF0ACC /* XTAssetsManager.swift */,
+				726666FF1EA1C9FF00BF0ACC /* XTAssetsConfiguration.swift */,
+				726667051EA1C9FF00BF0ACC /* XTAssetsPickerViewController.swift */,
+				7266670B1EA1C9FF00BF0ACC /* XTPreviewViewController.swift */,
+				726666FD1EA1C9FF00BF0ACC /* XTAlbumViewController.swift */,
+				726667031EA1C9FF00BF0ACC /* XTAssetsPickerCell.swift */,
+				726667091EA1C9FF00BF0ACC /* XTPreviewCell.swift */,
+				726667041EA1C9FF00BF0ACC /* XTAssetsPickerConstant.swift */,
+				726667061EA1C9FF00BF0ACC /* XTCustomItems.swift */,
+				726667071EA1C9FF00BF0ACC /* XTExtension.swift */,
+				726667081EA1C9FF00BF0ACC /* XTImagePickerController.swift */,
+				7266670A1EA1C9FF00BF0ACC /* XTPreviewTransition.swift */,
+				726667011EA1C9FF00BF0ACC /* XTAssetsPicker.storyboard */,
+				726666FE1EA1C9FF00BF0ACC /* XTAssets.xcassets */,
+			);
+			path = XTAssetsPicker;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		726666E51EA1C9D200BF0ACC /* XTAssetsPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 726666F81EA1C9D200BF0ACC /* Build configuration list for PBXNativeTarget "XTAssetsPicker" */;
+			buildPhases = (
+				726666E21EA1C9D200BF0ACC /* Sources */,
+				726666E31EA1C9D200BF0ACC /* Frameworks */,
+				726666E41EA1C9D200BF0ACC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XTAssetsPicker;
+			productName = XTAssetsPicker;
+			productReference = 726666E61EA1C9D200BF0ACC /* XTAssetsPicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		726666DE1EA1C9D200BF0ACC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Jaye;
+				TargetAttributes = {
+					726666E51EA1C9D200BF0ACC = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = JF549H673D;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 726666E11EA1C9D200BF0ACC /* Build configuration list for PBXProject "XTAssetsPicker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ar,
+				da,
+				de,
+				es,
+				fr,
+				id,
+				it,
+				ja,
+				ko,
+				nl,
+				pl,
+				pt,
+				ru,
+				tr,
+				vi,
+				"zh-Hans",
+				"zh-Hant",
+			);
+			mainGroup = 726666DD1EA1C9D200BF0ACC;
+			productRefGroup = 726666E71EA1C9D200BF0ACC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				726666E51EA1C9D200BF0ACC /* XTAssetsPicker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		726666E41EA1C9D200BF0ACC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7266670E1EA1C9FF00BF0ACC /* XTAssets.xcassets in Resources */,
+				726666F41EA1C9D200BF0ACC /* LaunchScreen.storyboard in Resources */,
+				726666F11EA1C9D200BF0ACC /* Assets.xcassets in Resources */,
+				726666EF1EA1C9D200BF0ACC /* Main.storyboard in Resources */,
+				726667111EA1C9FF00BF0ACC /* XTAssetsPicker.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		726666E21EA1C9D200BF0ACC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				726667131EA1C9FF00BF0ACC /* XTAssetsPickerCell.swift in Sources */,
+				726667171EA1C9FF00BF0ACC /* XTExtension.swift in Sources */,
+				726667101EA1C9FF00BF0ACC /* XTAssetsManager.swift in Sources */,
+				726666EC1EA1C9D200BF0ACC /* ViewController.swift in Sources */,
+				726667151EA1C9FF00BF0ACC /* XTAssetsPickerViewController.swift in Sources */,
+				7266671B1EA1C9FF00BF0ACC /* XTPreviewViewController.swift in Sources */,
+				7266671A1EA1C9FF00BF0ACC /* XTPreviewTransition.swift in Sources */,
+				7266670F1EA1C9FF00BF0ACC /* XTAssetsConfiguration.swift in Sources */,
+				726667191EA1C9FF00BF0ACC /* XTPreviewCell.swift in Sources */,
+				7266670D1EA1C9FF00BF0ACC /* XTAlbumViewController.swift in Sources */,
+				726667161EA1C9FF00BF0ACC /* XTCustomItems.swift in Sources */,
+				726667181EA1C9FF00BF0ACC /* XTImagePickerController.swift in Sources */,
+				726666EA1EA1C9D200BF0ACC /* AppDelegate.swift in Sources */,
+				726667141EA1C9FF00BF0ACC /* XTAssetsPickerConstant.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		726666ED1EA1C9D200BF0ACC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				726666EE1EA1C9D200BF0ACC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		726666F21EA1C9D200BF0ACC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				726666F31EA1C9D200BF0ACC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		726666F61EA1C9D200BF0ACC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		726666F71EA1C9D200BF0ACC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		726666F91EA1C9D200BF0ACC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JF549H673D;
+				INFOPLIST_FILE = XTAssetsPicker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tion126.demo.XTAssetsPicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		726666FA1EA1C9D200BF0ACC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JF549H673D;
+				INFOPLIST_FILE = XTAssetsPicker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tion126.demo.XTAssetsPicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		726666E11EA1C9D200BF0ACC /* Build configuration list for PBXProject "XTAssetsPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				726666F61EA1C9D200BF0ACC /* Debug */,
+				726666F71EA1C9D200BF0ACC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		726666F81EA1C9D200BF0ACC /* Build configuration list for PBXNativeTarget "XTAssetsPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				726666F91EA1C9D200BF0ACC /* Debug */,
+				726666FA1EA1C9D200BF0ACC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 726666DE1EA1C9D200BF0ACC /* Project object */;
+}
