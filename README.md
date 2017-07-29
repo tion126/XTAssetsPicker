@@ -36,3 +36,5 @@ Installation
 1. Add `pod 'XTAssetsPicker'` to your Podfile.
 2. Run `pod install` or `pod update`.
 3. import XTAssetsPicker.
+
+![gif](https://raw.githubusercontent.com/tion126/XTAssetsPicker/master/Untitled1.gif)
