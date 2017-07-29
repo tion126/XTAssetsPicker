@@ -11,7 +11,7 @@ import Photos
 
 @objc public protocol XTAssetsPickerDelegate : class {
 
-    @objc optional func didFinishPickingAssets(assets : NSMutableArray)
+    @objc optional func didFinishPickingAssets(assets : [PHAsset])
     @objc optional func didExceedMaximumNumberOfSelection(asset : PHAsset)
     @objc optional func didCancel()
 }
@@ -133,7 +133,7 @@ class XTAssetsManager: NSObject {
     
     func selectComplete() {
         
-        self.delegate?.didFinishPickingAssets?(assets: self.selectedAssets)
+        self.delegate?.didFinishPickingAssets?(assets: self.selectedAssets as! [PHAsset])
         self.selectedAssets.removeAllObjects()
     }
     

@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
 
 s.name         = "XTAssetsPicker"
 
-s.version      = "1.0.2"
+s.version      = "1.0.3"
 
 s.summary      = "XTAssetsPicker"
 
@@ -21,9 +21,5 @@ s.requires_arc = true
 s.source_files = "XTAssetsPicker/XTAssetsPicker/*.{swift}"
 
 s.resources    = "XTAssetsPicker/XTAssetsPicker/*.{storyboard,xcassets}"
-
-# s.resource_bundles = {
-#   'XTAssetsPicker' => ['XTAssetsPicker/XTAssetsPicker/*.{storyboard,xcassets}'],
-# }
 
 end
