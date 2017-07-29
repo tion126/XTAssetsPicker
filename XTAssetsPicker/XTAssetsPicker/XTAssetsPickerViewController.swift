@@ -21,7 +21,7 @@ class XTAssetsPickerViewController: UIViewController {
     @IBOutlet weak var bottomView    : XTBottomCountView!
     @IBOutlet weak var collectionView: UICollectionView!
     @IBOutlet weak var closeItem     : UIBarButtonItem!
-    let picker : UIViewController = UIStoryboard(name: "XTAssetsPicker", bundle: Bundle.main).instantiateViewController(withIdentifier: "XTAlbumViewController")
+    let picker : UIViewController = UIStoryboard(name: "XTAssetsPicker", bundle: Bundle.init(for: XTAssetsManager.self)).instantiateViewController(withIdentifier: "XTAlbumViewController")
     lazy var transition : XTPreviewTransition = {
         return XTPreviewTransition()
     }()
@@ -199,7 +199,7 @@ extension XTAssetsPickerViewController : UICollectionViewDelegate,UICollectionVi
         }else{
             
             self.manager.index = indexPath.item - 1
-            let previewVC = UIStoryboard(name: "XTAssetsPicker", bundle: Bundle.main).instantiateViewController(withIdentifier: "XTPreviewViewController")
+            let previewVC = UIStoryboard(name: "XTAssetsPicker", bundle: Bundle.init(for: XTAssetsManager.self)).instantiateViewController(withIdentifier: "XTPreviewViewController")
             self.navigationController?.show(previewVC, sender: nil)
         }
     }

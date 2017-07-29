@@ -10,22 +10,6 @@ import Foundation
 import Photos
 
 
-extension Bundle {
-    
-    class func XTAssetBundle() -> Bundle{
-        
-        let bundle1 = Bundle.init(for: XTAssetsManager.classForCoder())
-        let url     = bundle1.url(forResource: "XTAssetsPicker", withExtension: "storyboard")
-        let bundle  = Bundle.init(url: url!)
-        
-        //let path = Bundle.main.path(forResource: "XTAssetsPicker", ofType: "bundle")
-        
-        //let bundle = Bundle.init(path: path!)
-        
-        return bundle!
-    }
-}
-
 extension PHAssetCollection {
     
     func count() -> NSInteger {
@@ -56,9 +40,11 @@ extension UIViewController {
             manager.config = configuration
             manager.delegate = delegate
             
-            let picker = UIStoryboard(name: "XTAssetsPicker", bundle: Bundle.XTAssetBundle()).instantiateViewController(withIdentifier: "XTAssetsPicker") as! UINavigationController
+            let storyboard = UIStoryboard.init(name: "XTAssetsPicker", bundle: Bundle.init(for: XTAssetsManager.self))
             
-            self.present(picker, animated: true, completion: nil)
+            let picker = storyboard.instantiateInitialViewController()
+            
+            self.present(picker!, animated: true, completion: nil)
         }
     }
     

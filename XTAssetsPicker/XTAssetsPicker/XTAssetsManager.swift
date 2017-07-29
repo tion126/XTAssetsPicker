@@ -43,6 +43,7 @@ class XTAssetsManager: NSObject {
     
     static let sharedInstance = XTAssetsManager()
     
+    
     private override init(){
         super.init()
         PHPhotoLibrary.shared().register(self)
@@ -52,13 +53,13 @@ class XTAssetsManager: NSObject {
         PHPhotoLibrary.shared().unregisterChangeObserver(self)
     }
     
-    public func reload() {
+    func reload() {
         
         loadAlbums()
         loadAssets(collection: collections.first!)
     }
     
-    fileprivate func loadAlbums(){
+    func loadAlbums(){
         
         collections.removeAll()
         
@@ -82,7 +83,7 @@ class XTAssetsManager: NSObject {
         }
     }
     
-    public func loadAssets(collection : PHAssetCollection){
+    func loadAssets(collection : PHAssetCollection){
         
         guard collections.count > 0 else {return}
         guard collection.localIdentifier != self.collection?.localIdentifier else {return}
