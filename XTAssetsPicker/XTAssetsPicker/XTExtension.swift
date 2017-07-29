@@ -52,7 +52,7 @@ extension UIViewController {
             manager.config = configuration
             manager.delegate = delegate
             
-            let picker = UIStoryboard(name: "XTAssetsPicker", bundle: Bundle.main).instantiateViewController(withIdentifier: "XTAssetsPicker") as! UINavigationController
+            let picker = UIStoryboard(name: "XTAssetsPicker", bundle: Bundle(for: XTAssetsManager.sharedInstance.classForCoder)).instantiateViewController(withIdentifier: "XTAssetsPicker") as! UINavigationController
             
             self.present(picker, animated: true, completion: nil)
         }
