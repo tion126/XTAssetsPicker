@@ -14,9 +14,13 @@ extension Bundle {
     
     class func XTAssetBundle() -> Bundle{
         
-        let path = Bundle.main.path(forResource: "XTAssetsPicker", ofType: "bundle")
+        let bundle1 = Bundle.init(for: XTAssetsManager.classForCoder())
+        let url     = bundle1.url(forResource: "XTAssetsPicker", withExtension: "storyboard")
+        let bundle  = Bundle.init(url: url!)
         
-        let bundle = Bundle.init(path: path!)
+        //let path = Bundle.main.path(forResource: "XTAssetsPicker", ofType: "bundle")
+        
+        //let bundle = Bundle.init(path: path!)
         
         return bundle!
     }
@@ -52,7 +56,7 @@ extension UIViewController {
             manager.config = configuration
             manager.delegate = delegate
             
-            let picker = UIStoryboard(name: "XTAssetsPicker", bundle: Bundle(for: XTAssetsManager.sharedInstance.classForCoder)).instantiateViewController(withIdentifier: "XTAssetsPicker") as! UINavigationController
+            let picker = UIStoryboard(name: "XTAssetsPicker", bundle: Bundle.XTAssetBundle()).instantiateViewController(withIdentifier: "XTAssetsPicker") as! UINavigationController
             
             self.present(picker, animated: true, completion: nil)
         }
