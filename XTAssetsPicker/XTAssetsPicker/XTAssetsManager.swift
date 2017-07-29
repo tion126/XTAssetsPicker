@@ -9,7 +9,7 @@
 import UIKit
 import Photos
 
-@objc protocol XTAssetsPickerDelegate : class {
+@objc public protocol XTAssetsPickerDelegate : class {
 
     @objc optional func didFinishPickingAssets(assets : NSMutableArray)
     @objc optional func didExceedMaximumNumberOfSelection(asset : PHAsset)

@@ -40,10 +40,9 @@ extension PHAssetCollection {
     }
 }
 
-
 extension UIViewController {
     
-    func presentAssetsPicker(configuration : XTAssetsConfiguration = XTAssetsConfiguration() ,delegate : XTAssetsPickerDelegate!) {
+   public func presentAssetsPicker(configuration : XTAssetsConfiguration = XTAssetsConfiguration() ,delegate : XTAssetsPickerDelegate!) {
         
         authorize { (status) in
             
@@ -59,7 +58,7 @@ extension UIViewController {
         }
     }
     
-    fileprivate func authorize(result : @escaping (PHAuthorizationStatus) -> Swift.Void){
+    func authorize(result : @escaping (PHAuthorizationStatus) -> Swift.Void){
         
         switch PHPhotoLibrary.authorizationStatus() {
         case .authorized:
@@ -106,7 +105,7 @@ extension UIViewController {
     }
     
     
-    fileprivate func cameraAuthorize(result : @escaping (AVAuthorizationStatus) -> Swift.Void) {
+    func cameraAuthorize(result : @escaping (AVAuthorizationStatus) -> Swift.Void) {
         
         switch AVCaptureDevice.authorizationStatus(forMediaType: AVMediaTypeVideo) {
         case .authorized:

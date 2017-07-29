@@ -9,33 +9,33 @@
 import Foundation
 import UIKit
 
-class XTAssetsConfiguration: NSObject {
+public class XTAssetsConfiguration: NSObject {
 
     /**
      * number of item in each row
      */
-    var numberOfColum : NSInteger = 4
+    public var numberOfColum : NSInteger = 4
     /**
      * maxminum number of photo
      */
-    var maxminumCount : NSInteger = 5
+    public var maxminumCount : NSInteger = 5
     /**
      * show camera
      */
     
     //UI
     
-    var selectButtonColor : UIColor = UIColor.init(red: 104/255, green: 173/255, blue: 204/255, alpha: 1)
+    public var selectButtonColor : UIColor = UIColor.init(red: 104/255, green: 173/255, blue: 204/255, alpha: 1)
     
-    var closeButtonColor  : UIColor = UIColor.black
+    public var closeButtonColor  : UIColor = UIColor.black
     
-    var gridViewBackgroundColor : UIColor = UIColor.white
+    public var gridViewBackgroundColor : UIColor = UIColor.white
     
-    var titleColor                      : UIColor  = UIColor.black
+    public var titleColor                      : UIColor  = UIColor.black
     
-    var previewBackgroundColor_Normal   : UIColor  = UIColor.white
+    public var previewBackgroundColor_Normal   : UIColor  = UIColor.white
     
-    var previewBackgroundColor_Selected : UIColor  = UIColor.black
+    public var previewBackgroundColor_Selected : UIColor  = UIColor.black
     
  
 }
